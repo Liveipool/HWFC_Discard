@@ -1,13 +1,10 @@
 # HWFC
-##HWFC官方网站  
 
-使用vue+webpack+express+mongodb进行构建，还使用bootstrap等框架。
+> Hello World Football Club 官方网站  
 
-# hwfc
+### 使用vue+webpack+express+mongodb进行构建，还使用bootstrap等框架。
 
-> official website of HWFC
-
-## Build Setup
+## 启动方式
 
 ``` bash
 # install dependencies
@@ -16,9 +13,26 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
+# build for production with minification（开发时忽略即可）
 npm run build
 ```
+## 目录结构
+- build、config、static等文件夹负责装一些配置文件，后台代码文件等。
+- src文件夹下为前端代码文件。
+- index.html文件为项目的启动html文件。
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+src文件夹内：
+- routes.js:  记录路由信息
+- main.js:  创建项目启动文件index.html里的app Vue实例
+- Main.vue:  项目的通用界面框架模板
+- asssets/: 放置图片
+- components/:  放置项目的通用界面框架模板里的一些组件
+- pages:/ 放置各具体功能页面，每个页面单独一个文件夹，如：pages/404/， pages/Home/。。
 
+举例介绍，在各具体功能的文件夹中，如pages/Home/里，有一个Home.vue，一个components文件夹，Home.vue负责写出各组件的排布而不关心组件具体是什么内容，components文件夹里则是编写各具体组件。
+
+这样讲可能还有点抽象，但给出的initial packet中已经有了具体的代码样例，根据代码应该比较容易理解。
+
+## 命名规范
+我们的类名均采用横线连接，如head-bar, nav-list.
+由于vue会将组件名从驼峰法转为横线连接法，如HeadBar组件在使用时应写为<head-bar></head-bar>，为了与类名等区分，我们的组件名以及组件文件的命名均采用驼峰命名法，如Home.vue，BottomBar，大驼峰法和小驼峰法均可，但初始包是采用的大驼峰法，所以建议都使用大驼峰法。
