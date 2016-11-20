@@ -1,8 +1,7 @@
 # HWFC
 
-> Hello World Football Club 官方网站  
-
-### 使用vue+webpack+express+mongodb进行构建，还使用bootstrap等框架。
+> Hello World Football Club 官方网站    
+> 使用vue+webpack+express+mongodb进行构建，还使用bootstrap等框架。
 
 ## 启动方式
 
@@ -34,5 +33,5 @@ src文件夹内：
 这样讲可能还有点抽象，但给出的initial packet中已经有了具体的代码样例，根据代码应该比较容易理解。
 
 ## 命名规范
-我们的类名均采用横线连接，如head-bar, nav-list.
-由于vue会将组件名从驼峰法转为横线连接法，如HeadBar组件在使用时应写为<head-bar></head-bar>，为了与类名等区分，我们的组件名以及组件文件的命名均采用驼峰命名法，如Home.vue，BottomBar，大驼峰法和小驼峰法均可，但初始包是采用的大驼峰法，所以建议都使用大驼峰法。
+我们的类名均采用横线连接，如head-bar, nav-list.  
+由于vue会将组件名从驼峰法转为横线连接法，如HeadBar组件在应用时会被自动改写为head-bar，为了与类名等区分，我们的组件名以及组件文件的命名均采用驼峰命名法，如Home.vue，BottomBar，大驼峰法和小驼峰法均可，但初始包是采用的大驼峰法，所以建议都使用大驼峰法。
