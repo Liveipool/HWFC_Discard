@@ -1,3 +1,8 @@
+# HWFC
+##HWFC官方网站  
+
+使用vue+webpack+express+mongodb进行构建，还使用bootstrap等框架。
+
 # hwfc
 
 > official website of HWFC
@@ -16,3 +21,4 @@ npm run build
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
