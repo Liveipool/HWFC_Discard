@@ -1,5 +1,5 @@
 <template>
-	<div class="head-bar">
+	<div class="head-bar hwfc-blue-bg">
 		<ul class="nav-list">
 	      <li>
 	        <v-link href="/">主页</v-link>
@@ -24,7 +24,6 @@
 	.head-bar {
 		margin: 0px;
 		height: 80px;
-		background-color: #3399FF;
 	}
 	.nav-list {
 		width: 600px;

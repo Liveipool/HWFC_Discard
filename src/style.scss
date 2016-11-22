@@ -13,6 +13,8 @@ pb-         :padding-bottom
 w-          :width
 h-          :height
 text-bold   :font-weight bold
+hwfc-blue   :color
+hwfc-blue-bg:backgroud-color
 以后添加新的类名时，记得在上面做好注释*/
 
 // font-size helpers
@@ -111,10 +113,10 @@ text-bold   :font-weight bold
   font-weight: bold;
 }
 
-.c-hwfc-blue {
+.hwfc-blue {
   color: #3399FF;
 }
 
-.bg-hwfc-blue {
-  color: #3399FF;
+.hwfc-blue-bg {
+  background-color: #3399FF;
 }
