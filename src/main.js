@@ -2,6 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import routes from './routes'
+import style from './style'
 
 const app = new Vue({
   el: '#app',
