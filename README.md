@@ -16,17 +16,17 @@ npm run dev
 npm run build
 ```
 ## 目录结构
-- build、config、static等文件夹负责装一些配置文件，后台代码文件等。
-- src文件夹下为前端代码文件。
-- index.html文件为项目的启动html文件。
+- build、config等文件夹负责装一些配置文件，后台代码文件等。   
+- static文件夹装载一些静态资源文件,里面的assets用来放置图片。    
+- src文件夹下为前端代码文件。   
+- index.html文件为项目的启动html文件。  
 
 src文件夹内：
-- routes.js:  记录路由信息
-- main.js:  创建项目启动文件index.html里的app Vue实例
-- Main.vue:  项目的通用界面框架模板
-- asssets/: 放置图片
-- components/:  放置项目的通用界面框架模板里的一些组件
-- pages:/ 放置各具体功能页面，每个页面单独一个文件夹，如：pages/404/， pages/Home/。。
+- routes.js:  记录路由信息    
+- main.js:  创建项目启动文件index.html里的app Vue实例   
+- Main.vue:  项目的通用界面框架模板   
+- components/:  放置项目的通用界面框架模板里的一些组件   
+- pages:/ 放置各具体功能页面，每个页面单独一个文件夹，如：pages/404/， pages/Home/
 
 举例介绍，在各具体功能的文件夹中，如pages/Home/里，有一个Home.vue，一个components文件夹，Home.vue负责写出各组件的排布而不关心组件具体是什么内容，components文件夹里则是编写各具体组件。
 

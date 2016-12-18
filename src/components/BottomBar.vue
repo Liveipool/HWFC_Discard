@@ -10,6 +10,7 @@
 	export default{
 		name: 'bottom-msg',
 		data () {
+			// 使用组件时，data必须是函数。
 			return {
 				chiMsg: '我在中大，混碗饭吃',
 				engMsg: 'Hello World Football Club',
