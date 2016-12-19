@@ -38,4 +38,4 @@ src文件夹内：
 由于vue会将组件名从驼峰法转为横线连接法，如HeadBar组件在应用时会被自动改写为head-bar，为了与类名等区分，我们的组件名以及组件文件的命名均采用驼峰命名法，如Home.vue，BottomBar，大驼峰法和小驼峰法均可，但初始包是采用的大驼峰法，所以建议都使用大驼峰法。   
 
 ## 项目包分析  
-[HWFC项目包分析](http://liveipool.com/blog/2016/12/18/Understanding-of-HWFC-Project-1/)
+[HWFC项目包分析博客:http://liveipool.com/blog/2016/12/18/Understanding-of-HWFC-Project-1/](http://liveipool.com/blog/2016/12/18/Understanding-of-HWFC-Project-1/)
