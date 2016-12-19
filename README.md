@@ -20,6 +20,7 @@ npm run build
 - static文件夹装载一些静态资源文件,里面的assets用来放置图片。    
 - src文件夹下为前端代码文件。   
 - index.html文件为项目的启动html文件。  
+- .editorconfig文件用于帮助开发者在不同的编辑器和IDE之间定义和维护一致的代码风格，建议看一下。  
 
 src文件夹内：
 - routes.js:  记录路由信息    
@@ -34,4 +35,7 @@ src文件夹内：
 
 ## 命名规范
 我们的类名均采用横线连接，如head-bar, nav-list.  
-由于vue会将组件名从驼峰法转为横线连接法，如HeadBar组件在应用时会被自动改写为head-bar，为了与类名等区分，我们的组件名以及组件文件的命名均采用驼峰命名法，如Home.vue，BottomBar，大驼峰法和小驼峰法均可，但初始包是采用的大驼峰法，所以建议都使用大驼峰法。
+由于vue会将组件名从驼峰法转为横线连接法，如HeadBar组件在应用时会被自动改写为head-bar，为了与类名等区分，我们的组件名以及组件文件的命名均采用驼峰命名法，如Home.vue，BottomBar，大驼峰法和小驼峰法均可，但初始包是采用的大驼峰法，所以建议都使用大驼峰法。   
+
+## 项目包分析  
+[HWFC项目包分析](http://liveipool.com/blog/2016/12/18/Understanding-of-HWFC-Project-1/)
