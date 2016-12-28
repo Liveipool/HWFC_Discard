@@ -1,6 +1,6 @@
-# HWFC
+# HWFC官方网站项目初始包，已不再使用，最新的仓库链接为（https://github.com/Liveipool/HWFC）     
 
-> Hello World Football Club 官方网站    
+> Hello World Football Club 官方网站    
 > 使用vue+webpack+express+mongodb进行构建，还使用bootstrap等框架。
 
 ## 启动方式
